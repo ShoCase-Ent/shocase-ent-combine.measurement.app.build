@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.shocase.combine.measurements.dev" version="1.1.17" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.shocase.combine.measurements.dev" version="1.1.18" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Shocase Combine Measurements</name>
     <description>
         An app to record event scores and times to the Shocase server for leaderboard generation.
@@ -83,4 +83,7 @@
     <splash platform="android" qualifier="xhdpi" src="res/screens/android/drawable-xxhdpi/screen.png" />
     <splash platform="android" qualifier="xhdpi" src="res/screens/android/drawable-xxxhdpi/screen.png" />
     <engine name="browser" spec="^5.0.4" />
+	<plugin source="npm" name="cordova-plugin-dialogs" />
+	<plugin source="npm" name="cordova-plugin-whitelist" />
+	<plugin source="npm" name="cordova-plugin-insomnia" />
 </widget>
