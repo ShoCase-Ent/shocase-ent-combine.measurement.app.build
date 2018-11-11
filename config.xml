@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.shocase.combine.measurements.dev" version="1.1.20" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.shocase.combine.measurements.dev" version="1.1.21" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Shocase Combine Measurements</name>
     <description>
         An app to record event scores and times to the Shocase server for leaderboard generation.
@@ -39,10 +39,10 @@
     <preference name="android-build-tool" value="gradle" />
     <preference name="windows-appx-target" value="8.1-phone" />
     <platform name="ios">
-        <preference name="phonegap-version" value="cli-8.0.0" />
+        <preference name="phonegap-version" value="cli-7.1.0" />
     </platform>
     <platform name="android">
-        <preference name="phonegap-version" value="cli-8.0.0" />
+        <preference name="phonegap-version" value="cli-7.1.0" />
     </platform>
     <icon height="1024" platform="ios" src="res/icons/ios/Icon-marketing-1024x1024.png" width="1024" />
     <icon height="334" platform="ios" src="res/icons/ios/Icon-83.5@2x.png" width="334" />
