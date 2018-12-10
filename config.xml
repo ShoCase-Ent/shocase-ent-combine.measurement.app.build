@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.shocase.combine.measurements.dev" version="1.2.19" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.shocase.combine.measurements.dev" version="1.2.20" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Shocase Combine Measurements</name>
     <description>
         An app to record event scores and times to the Shocase server for leaderboard generation.
@@ -45,8 +45,7 @@
     <platform name="android">
         <preference name="phonegap-version" value="cli-7.1.0" />
     </platform>
-    
-	<icon src="icon.png" />
+    <icon src="icon.png" />
     <icon height="1024" platform="ios" src="res/icons/ios/Icon-marketing-1024x1024.png" width="1024" />
     <icon height="334" platform="ios" src="res/icons/ios/Icon-83.5@2x.png" width="334" />
     <icon height="180" platform="ios" src="res/icons/ios/Icon-60x60@3x.png" width="180" />
@@ -67,8 +66,7 @@
     <icon platform="android" qualifier="xhdpi" src="res/icons/android/drawable-xhdpi/icon.png" />
     <icon platform="android" qualifier="xxhdpi" src="res/icons/android/drawable-xxhdpi/icon.png" />
     <icon platform="android" qualifier="xxxhdpi" src="res/icons/android/drawable-xxxhdpi/icon.png" />
-    
-	<splash src="splash.png" />
+    <splash src="splash.png" />
     <splash height="480" platform="ios" src="res/screens/ios/LaunchImage~iphone-320x480.png" width="320" />
     <splash height="960" platform="ios" src="res/screens/ios/LaunchImage~iphone_640x960.png" width="640" />
     <splash height="1136" platform="ios" src="res/screens/ios/LaunchImage-568h@2x~iphone_640x1136.png" width="640" />
