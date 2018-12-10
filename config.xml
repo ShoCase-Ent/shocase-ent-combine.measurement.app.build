@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.shocase.combine.measurements.dev" version="1.2.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.shocase.combine.measurements.dev" version="1.2.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Shocase Combine Measurements</name>
     <description>
         An app to record event scores and times to the Shocase server for leaderboard generation.
@@ -88,5 +88,11 @@
     <plugin name="cordova-plugin-google-analytics" spec="^1.8.6">
         <variable name="GMS_VERSION" value="11.0.1" />
     </plugin>
+    <config-file mode="merge" parent="/*" target="AndroidManifest.xml">
+        <uses-permission android:name="android.permission.CAMERA" />
+        <uses-feature android:name="android.hardware.camera" />
+        <uses-feature android:name="android.hardware.camera.autofocus" />
+    </config-file>
+    <plugin name="cordova-plugin-barcodescanner" spec="^0.7.4" />
     <engine name="browser" spec="^5.0.4" />
 </widget>
