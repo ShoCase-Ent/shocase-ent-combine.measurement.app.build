@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.shocase.combine.measurements.dev" version="1.4.6" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.shocase.combine.measurements.dev" version="1.4.7" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Shocase Combine Measurements</name>
     <description>
         An app to record event scores and times to the Shocase server for leaderboard generation.
