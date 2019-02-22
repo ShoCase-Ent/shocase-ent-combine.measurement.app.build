@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.shocase.combine.measurements.dev" version="1.5.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.shocase.combine.measurements.dev" version="1.5.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Shocase Combine Measurements</name>
     <description>
         An app to record event scores and times to the Shocase server for leaderboard generation.
@@ -104,6 +104,7 @@
     <edit-config file="*-Info.plist" mode="merge" target="NSPhotoLibraryUsageDescription">
         <string>Camera Usage is required for scanning QR Codes ad Barcodes where necessary</string>
     </edit-config>
-    <engine name="browser" spec="^5.0.4" />
     <plugin name="cordova-plugin-dialogs" spec="^2.0.1" />
+    <engine name="browser" spec="^5.0.4" />
+    <plugin name="cordova-plugin-app-version" spec="^0.1.9" />
 </widget>
